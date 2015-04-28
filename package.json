@@ -1,0 +1,27 @@
+{
+  "name": "guppy-update",
+  "version": "0.1.0",
+  "description": "Installs a update git-hook only, for guppy packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "guppy update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therealklanni/guppy-update.git"
+  },
+  "keywords": [
+    "guppy",
+    "update"
+  ],
+  "author": "Kevin Lanni (https://github.com/therealklanni)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therealklanni/guppy-update/issues"
+  },
+  "homepage": "https://github.com/therealklanni/guppy-update",
+  "dependencies": {
+    "guppy-cli": "^0.2.4"
+  }
+}
