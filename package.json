@@ -13,6 +13,8 @@
   },
   "keywords": [
     "guppy",
+    "git-guppy",
+    "guppy-hook",
     "update"
   ],
   "author": "Kevin Lanni (https://github.com/therealklanni)",
